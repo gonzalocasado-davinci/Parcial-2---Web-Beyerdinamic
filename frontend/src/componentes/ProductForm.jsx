@@ -2,9 +2,9 @@ import {useState} from "react";
 import { addProducto} from "../api";
 
 export default function ProductForm( {onAdded}) {
-    const [nombre, setNombre] = userState("");
+    const [nombre, setNombre] = useState("");
     const [precio, setPrecio] = useState("");
-    const [imagen, setImagen] = userState("");
+    const [imagen, setImagen] = useState("");
 
     async function handleSubmit (e) {
         e.preventDefault();
