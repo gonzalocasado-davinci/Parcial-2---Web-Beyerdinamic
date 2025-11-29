@@ -1,6 +1,6 @@
 const API_URL = "http://localhost:3000/producots";
 
-export async function getProductos(){
+export async function getProducts(){
     const res = await fetch(API_URL);
     return res.json();
 }

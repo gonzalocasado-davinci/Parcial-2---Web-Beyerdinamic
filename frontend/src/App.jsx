@@ -6,7 +6,7 @@ export default function App(){
   return(
     <div>
       <h1>Beyerdinamic Store</h1>
-      <ProductForm on onAdded={() => window.location.reload()} />
+      <ProductForm onAdded={() => window.location.reload()} />
       <ProductList />
     </div>
   );

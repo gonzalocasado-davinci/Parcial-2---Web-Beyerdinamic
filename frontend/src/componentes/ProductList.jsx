@@ -9,7 +9,7 @@ export default function ProductList() {
     }, []);
 
     async function cargar() {
-        const datos = await getProductos();
+        const datos = await getProducts();
         setLista(datos);
     }
 
