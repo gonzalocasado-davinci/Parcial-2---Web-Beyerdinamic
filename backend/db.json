@@ -1,3 +1,19 @@
 {
-    "productos": []
+  "productos": [
+    {
+      "nombre": "Amiron-Wireless-Copper",
+      "precio": 70000,
+      "imagen": "/res/amiron-wireless-copper-perspective.webp"
+    },
+    {
+      "nombre": "Auriculares Gaming DT700 PRO +",
+      "precio": 120000,
+      "imagen": "/res/auri gaming.webp"
+    },
+    {
+      "nombre": "Pads Auriculares Velour Black",
+      "precio": 30000,
+      "imagen": "/res/beyerdynamic_earpads-velour-black-906166.webp"
+    }
+  ]
 }
